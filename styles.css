@@ -28,4 +28,9 @@ body {
 
 /*********************************************************** wavy pattern */
 .wavy {
+  background-color: #b0e0e6;
+  height: 20rem;
+  width: 100%;
+  position: absolute;
+  top: 9rem;
 }
