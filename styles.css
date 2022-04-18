@@ -1,4 +1,6 @@
 /*********************************************************** custom defaults */
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,8 @@
 body {
   cursor: default;
   position: relative;
+  background-color: #00ced1;
+  font-family: "Kalam", cursive, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*********************************************************** title */
