@@ -10,4 +10,4 @@ This is a static website which displays a background with a wavy pattern. This p
 
 # Credits
 
-- [#]()
+- [Curves with CSS](https://www.youtube.com/watch?v=lPJVi797Uy0)

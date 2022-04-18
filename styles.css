@@ -12,6 +12,7 @@ body {
   cursor: default;
   background-color: #e0ffff;
   position: relative;
+  overflow: hidden;
 }
 
 /*********************************************************** title */
@@ -39,9 +40,31 @@ body {
   position: absolute;
   bottom: 16rem;
   left: -4px;
-  background-color: #b0e0e6;
   width: 50%;
   height: 7rem;
-  border-top-left-radius: 3rem 5rem;
-  border-top-right-radius: 3rem 5rem;
+}
+
+.wave-1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 1rem;
+  width: 11rem;
+  height: 5rem;
+  background-color: #e0ffff;
+  border-radius: 50%;
+  transform: translate(-31%, 4%);
+}
+
+.wave-1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 11rem;
+  width: 13rem;
+  height: 7rem;
+  background-color: #b0e0e6;
+  border-radius: 50%;
+  transform: translate(-21%, 8%);
+  z-index: -1;
 }
