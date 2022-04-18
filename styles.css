@@ -10,15 +10,15 @@
 body {
   font-family: "Kalam", cursive, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: default;
-  position: relative;
   background-color: #e0ffff;
+  position: relative;
 }
 
 /*********************************************************** title */
 .title {
   display: grid;
   justify-content: space-evenly;
-  margin: 12rem auto;
+  margin: 5rem auto;
 }
 
 .title h1 {
@@ -27,10 +27,21 @@ body {
 }
 
 /*********************************************************** wavy pattern */
-.wavy {
+.wavy-bg {
+  position: absolute;
+  top: 16rem;
   background-color: #b0e0e6;
   height: 20rem;
   width: 100%;
+}
+
+.wave-1 {
   position: absolute;
-  top: 9rem;
+  bottom: 16rem;
+  left: -4px;
+  background-color: #b0e0e6;
+  width: 50%;
+  height: 7rem;
+  border-top-left-radius: 3rem 5rem;
+  border-top-right-radius: 3rem 5rem;
 }
